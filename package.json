@@ -1,0 +1,29 @@
+{
+  "name": "image-optimization",
+  "version": "1.0.0",
+  "description": "To optimise the images.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samithks/image-optimization.git"
+  },
+  "keywords": [
+    "optimization",
+    "resize"
+  ],
+  "author": "Samith K S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samithks/image-optimization/issues"
+  },
+  "homepage": "https://github.com/samithks/image-optimization#readme",
+  "dependencies": {
+    "imagemin": "^6.0.0",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^6.0.0",
+    "sharp": "^0.21.0"
+  }
+}
